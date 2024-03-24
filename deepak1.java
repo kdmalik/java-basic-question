@@ -135,32 +135,32 @@
 // //         }
 // //     }
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 /**
  * deepak1
  */
-public class deepak1 {
-    public static void findCP(String a1,String a2) {
-        int len=Math.min(a1.length(),a2.length());
-          String lan="";
-          for(int i=0;i<len;i++){
-            if(a1.charAt(i)==a2.charAt(i)){
-                lan+=a2.charAt(i);
-            }
-            else{
-                break;
-            }
-          }
-        System.out.println(lan);
-    }
+// public class deepak1 {
+//     public static void findCP(String a1,String a2) {
+//         int len=Math.min(a1.length(),a2.length());
+//           String lan="";
+//           for(int i=0;i<len;i++){
+//             if(a1.charAt(i)==a2.charAt(i)){
+//                 lan+=a2.charAt(i);
+//             }
+//             else{
+//                 break;
+//             }
+//           }
+//         System.out.println(lan);
+//     }
 
-    public static void main(String[] args) {
-        Scanner dk=new Scanner(System.in);
-        System.out.println("enter 1st string");
-        String a1=dk.nextLine();
-        System.out.println("enter 2nd string");
-        String a2=dk.nextLine();
-        findCP(a1,a2);
-    }
-}
+//     public static void main(String[] args) {
+//         Scanner dk=new Scanner(System.in);
+//         System.out.println("enter 1st string");
+//         String a1=dk.nextLine();
+//         System.out.println("enter 2nd string");
+//         String a2=dk.nextLine();
+//         findCP(a1,a2);
+//     }
+// }
